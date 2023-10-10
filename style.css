@@ -2,10 +2,10 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    grid-template-rows: 200px 200px 200px ;
+    grid-template-rows: 200px 200px  ;
     grid-auto-columns: 200px;
     grid-auto-flow: column;
-    gap: 20px;
+    gap: 4px;
     /* text-align: end; */
     
     
