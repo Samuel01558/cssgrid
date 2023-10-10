@@ -1,0 +1,44 @@
+.container {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 200px 200px 200px ;
+    grid-auto-columns: 200px;
+    grid-auto-flow: column;
+    gap: 20px;
+    /* text-align: end; */
+    
+    
+    
+    
+}
+
+.item {
+    /* display: flex;
+    width: 100%; */
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+    background-color: #1ABD3D;
+    /* justify-content: end;
+    align-items: flex-end; */
+    display: grid;
+    
+    
+    
+    
+}
+
+.item div {
+    background-color: #127427;
+    width: 30%;
+    height: 80px;
+    color: #ffffff;
+    text-align: center;
+    justify-self: end;
+    align-self: end;
+    
+}
+
+/* .item p {
+    align-items: center;
+} */
