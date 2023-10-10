@@ -13,7 +13,7 @@
     width: 200px;
     height: 200px;
     background-color: #4AF908;
-    place-items: end;
+    place-items: center;
 }
 
 .item div {
