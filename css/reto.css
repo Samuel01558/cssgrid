@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+    "cuandroA cuadroB cuadroB"
+    "cuadroC cuadroC cuadroD"
+    "cuadroE cuadroF cuadroG";
+    
+}
+
+.a {
+    /* grid-area: cuadroA; */
+}
+
+.b {
+    grid-area: cuadroB;
+}
+
+.c {
+    grid-area: cuadroC;
+}
+
+.d {
+    grid-area: cuadroD;
+}
+
+.ligh-green {
+    background-color: rgb(85, 230, 85);
+}
+
+.normal-green {
+    background-color: rgb(39, 161, 39);
+}
+
+.dark-green {
+    background-color: darkgreen;
+}
